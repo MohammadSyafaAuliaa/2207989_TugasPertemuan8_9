@@ -1,0 +1,26 @@
+public class TesPerson {
+    public static void main(String[] args) {
+        // Membuat objek Person
+        Person person = new Person("Mohammad", "Bandung", "0822185123413", "mohammad@hotmail.com");
+        
+        // Membuat objek Student
+        Student student = new Student("Agus Karambol", "Jakarta", "08123741232", "agus900@gmail.com", Student.SENIOR);
+        
+        // Membuat objek Employee
+        Employee employee = new Employee("Bobi nastar", "Bandung", "08582139431", "bobii@gmail.com", "Office Jakarta", 150000, new MyDate(2024, 5, 1));
+        
+        // Membuat objek Faculty
+        Faculty faculty = new Faculty("Firman Utina", "Surabaya", "08284731871", "firmantampan@hotmail.com", "Office Bandung", 600000, new MyDate(2021, 8, 15), 40, "Professor");
+        
+        // Membuat objek Staff
+        Staff staff = new Staff("Caca Boeing", "Surabaya", "08231348314312", "cacan@hotmail.com", "Office Jakarta", 40000, new MyDate(2019, 11, 30), "Manager");
+
+        // Memanggil metode toString() tiap objek
+        System.out.println(person.toString());
+        System.out.println(student.toString());
+        System.out.println(employee.toString());
+        System.out.println(faculty.toString());
+        System.out.println(staff.toString());
+    }
+}
+
