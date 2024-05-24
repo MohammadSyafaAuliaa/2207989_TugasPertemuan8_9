@@ -23,7 +23,7 @@ public class TesPerson {
         Faculty faculty = new Faculty("Firman Utina", "Surabaya", "08284731871", "firmantampan@hotmail.com", "Office Bandung", 600000, new MyDate(2021, 8, 15), 40, "Professor");
         
         // Membuat objek Staff
-        Staff staff = new Staff("Charlie White", "654 Maple St", "555-7890", "charlie@example.com", "Office 303", 40000, new MyDate(2019, 11, 30), "Manager");
+        Staff staff = new Staff("Caca Boeing", "Surabaya", "08231348314312", "cacan@hotmail.com", "Office Jakarta", 40000, new MyDate(2019, 11, 30), "Manager");
 
         // Memanggil metode toString() tiap objek
         System.out.println(person.toString());
